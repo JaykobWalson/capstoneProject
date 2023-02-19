@@ -1,0 +1,14 @@
+p1{
+    position: relative;
+    color: red;
+    left: 350px;
+    font-size: 40;
+}
+
+p2{
+    position: relative;
+    color: red;
+    top: 250px;
+    left: 200px;
+    font-size: 20;
+}
