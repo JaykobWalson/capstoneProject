@@ -91,4 +91,15 @@ p5{
     position:absolute;
     top: 400px;
     left: 450px;
+    display:block;
+}
+
+#finish{
+    position:absolute;
+    width: 100px;
+    height: 40px;
+    background-color: teal;
+    top: 0px;
+    left: 700px;
+    display:none;
 }

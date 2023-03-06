@@ -1,0 +1,146 @@
+p1{
+    font-size: 30px;
+    left: 60px;
+    text-align: center;
+    color: red;
+}
+
+p2{
+    position: absolute;
+    font-size: 14px;
+    text-align: center;
+    color: red;
+    left: 700px;
+}
+
+
+
+#countdown{
+    position: absolute;
+    font-size: 14px;
+    text-align: center;
+    color: red;
+    left: 800px;
+}
+
+p4{
+    position: absolute;
+    font-size: 14px;
+    text-align: center;
+    color: red;
+    left: 900px;
+    top: 8px;
+}
+
+
+#lives{
+    position: absolute;
+    font-size: 14px;
+    text-align: center;
+    color: red;
+    left: 940px;
+}
+#block1{
+    position: absolute;
+    width: 170px;
+    height: 500px;
+    top: 100px;
+    left: 750px;
+    background-color: grey;
+
+}
+#block2{
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    top: 100px;
+    left: 90px;
+    background-color: grey;
+
+}
+#block3{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    top: 400px;
+    left: 800px;
+    background-color: grey;
+
+}
+#block4{
+    position: absolute;
+    width: 330px;
+    height: 90px;
+    top: 400px;
+    left: 60px;
+    background-color: grey;
+
+}
+
+#slippatch{
+    position: absolute;
+    width: 90px;
+    height: 250px;
+    top: 150px;
+    left: 90px;
+    background-color: skyblue;
+
+}
+
+#cart{
+    position: absolute;
+    rotate:90deg;
+   
+}
+
+#snickers1{
+    position: absolute;
+    top: 200px;
+    left: 730px;
+    display: block;
+}
+#snickers2{
+    position: absolute;
+    top: 140px;
+    left: 500px;
+    display: block;
+}#snickers3{
+    position: absolute;
+    top: 320px;
+    left: 730px;
+    display: block;
+}
+#snickers4{
+    position: absolute;
+    top: 480px;
+    left: 320px;
+    display: block;
+}
+#snickers5{
+    position: absolute;
+    top: 140px;
+    left: 320px;
+    display: block;
+}
+
+@keyframes moving {
+    0%{
+        top: 90px;
+        left: 90px;
+    }
+    100%{
+       top: 60px;
+       left: 90px;
+    }
+    
+ }
+
+ #finish{
+    position:absolute;
+    width: 100px;
+    height: 40px;
+    background-color: teal;
+    top: 0px;
+    left: 700px;
+    display:none;
+}

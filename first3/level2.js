@@ -1,20 +1,16 @@
-// class boxes{
-//     constructor(id){
-//         this.element = document.getElementById(id);
-//         this.xPos = r.x;
-//         this.yPos = r.y;
-//     }
-// }
-// let tester = new boxes("block1");
-// console.log(tester.xPos);
-// console.log(tester.yPos);
+
 document.addEventListener("keydown", move);
-//cart.style.left = "620px";
-//cart.style.top = "450px";
 var block1 = document.getElementById("block1");
 var block2 = document.getElementById("block2");
 var block3 = document.getElementById("block3");
 var block4 = document.getElementById("block4");
+var orange1 = document.getElementById("orange1");
+var orange2 = document.getElementById("orange2");
+var orange3 = document.getElementById("orange3");
+var orange4 = document.getElementById("orange4");
+
+var lives = 3;
+var items = 0;
 
 function elementsOverlap(el1, el2) {
     const domRect1 = el1.getBoundingClientRect();
@@ -38,6 +34,7 @@ function timer(){
         document.getElementById("countdown").innerHTML = time;
         if(time <= 0){
             document.getElementById("countdown").innerHTML = "You lose!"
+            window.location.href = "Lose Screen.html";
         }
     }, 1000);
 
@@ -48,7 +45,6 @@ function move(e){
     if(e.keyCode == 39 || e.keyCode == 68){
         let cart = document.getElementById("cart");
         let go = parseInt(cart.style.left) + 20;
-        let lives = 3;
         cart.style.left = go;
         console.log("...");
 
@@ -58,9 +54,10 @@ function move(e){
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
             lives--;
-            document.getElementById("lives").innerHTML = lives--;
+            document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
                 document.getElementById("countdown").innerHTML = "You lose!";
+                window.location.href = "Lose Screen.html";
 
             }
  
@@ -71,9 +68,10 @@ function move(e){
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
             lives--;
-            document.getElementById("lives").innerHTML = lives--;
+            document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
                 document.getElementById("countdown").innerHTML = "You lose!";
+                window.location.href = "Lose Screen.html";
 
             }
              
@@ -85,9 +83,10 @@ function move(e){
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
             lives--;
-            document.getElementById("lives").innerHTML = lives--;
+            document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
                 document.getElementById("countdown").innerHTML = "You lose!";
+                window.location.href = "Lose Screen.html";
 
             }
              
@@ -99,14 +98,59 @@ function move(e){
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
             lives--;
-            document.getElementById("lives").innerHTML = lives--;
+            document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
                 document.getElementById("countdown").innerHTML = "You lose!";
+                window.location.href = "Lose Screen.html";
 
             }
              
  
         }
+        if(elementsOverlap(cart, block5)){
+            // ow.play();
+            console.log("...");
+            document.getElementById("cart").style.left = "620px";
+            document.getElementById("cart").style.top = "450px";
+            lives--;
+            document.getElementById("lives").innerHTML = lives;
+            if(lives <= 0){
+                document.getElementById("countdown").innerHTML = "You lose!";
+                window.location.href = "Lose Screen.html";
+
+            }
+             
+ 
+        }
+
+        if(elementsOverlap(cart, orange1)){
+            console.log("retrieved");
+            orange1.style.display = "none";
+            items++;
+        }
+        if(elementsOverlap(cart, orange2)){
+            console.log("retrieved");
+            orange2.style.display = "none";
+            items++;
+        }
+        if(elementsOverlap(cart, orange3)){
+            console.log("retrieved");
+            orange3.style.display = "none";
+            items++;
+        }
+        if(elementsOverlap(cart, orange4)){
+            console.log("retrieved");
+            orange4.style.display = "none";
+            items++;
+        }
+        if(items == 4){
+            finish.style.display = "block";
+        }
+        if(elementsOverlap(cart, finish) && items == 4){
+            window.location.href = "Store 3.html";
+        }
+
+        
         // if(parseInt(target.style.left) >= 1000){
         //     window.location.href = "../cutscene2/cutscene2.html";
         // }
@@ -125,9 +169,10 @@ function move(e){
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
             lives--;
-            document.getElementById("lives").innerHTML = lives--;
+            document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
                 document.getElementById("countdown").innerHTML = "You lose!";
+                window.location.href = "Lose Screen.html";
 
             }
              
@@ -139,9 +184,10 @@ function move(e){
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
             lives--;
-            document.getElementById("lives").innerHTML = lives--;
+            document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
                 document.getElementById("countdown").innerHTML = "You lose!";
+                window.location.href = "Lose Screen.html";
 
             }
              
@@ -153,9 +199,10 @@ function move(e){
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
             lives--;
-            document.getElementById("lives").innerHTML = lives--;
+            document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
                 document.getElementById("countdown").innerHTML = "You lose!";
+                window.location.href = "Lose Screen.html";
 
             }
              
@@ -167,13 +214,55 @@ function move(e){
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
             lives--;
-            document.getElementById("lives").innerHTML = lives--;
+            document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
                 document.getElementById("countdown").innerHTML = "You lose!";
+                window.location.href = "Lose Screen.html";
 
             }
              
  
+        }
+        if(elementsOverlap(cart, block5)){
+            // ow.play();
+            console.log("...");
+            document.getElementById("cart").style.left = "620px";
+            document.getElementById("cart").style.top = "450px";
+            lives--;
+            document.getElementById("lives").innerHTML = lives;
+            if(lives <= 0){
+                document.getElementById("countdown").innerHTML = "You lose!";
+                window.location.href = "Lose Screen.html";
+
+            }
+             
+ 
+        }
+        if(elementsOverlap(cart, orange1)){
+            console.log("retrieved");
+            orange1.style.display = "none";
+            items++;
+        }
+        if(elementsOverlap(cart, orange2)){
+            console.log("retrieved");
+            orange2.style.display = "none";
+            items++;
+        }
+        if(elementsOverlap(cart, orange3)){
+            console.log("retrieved");
+            orange3.style.display = "none";
+            items++;
+        }
+        if(elementsOverlap(cart, orange4)){
+            console.log("retrieved");
+            orange4.style.display = "none";
+            items++;
+        }
+        if(items == 4){
+            finish.style.display = "block";
+        }
+        if(elementsOverlap(cart, finish) && items == 4){
+            window.location.href = "Store 3.html";
         }
         // if(parseInt(target.style.left) >= 1000){
         //     window.location.href = "../cutscene2/cutscene2.html";
@@ -191,9 +280,10 @@ function move(e){
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
             lives--;
-            document.getElementById("lives").innerHTML = lives--;
+            document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
                 document.getElementById("countdown").innerHTML = "You lose!";
+                window.location.href = "Lose Screen.html";
 
             }
              
@@ -205,9 +295,10 @@ function move(e){
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
             lives--;
-            document.getElementById("lives").innerHTML = lives--;
+            document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
                 document.getElementById("countdown").innerHTML = "You lose!";
+                window.location.href = "Lose Screen.html";
 
             }
              
@@ -219,9 +310,10 @@ function move(e){
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
             lives--;
-            document.getElementById("lives").innerHTML = lives--;
+            document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
                 document.getElementById("countdown").innerHTML = "You lose!";
+                window.location.href = "Lose Screen.html";
 
             }
              
@@ -233,13 +325,56 @@ function move(e){
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
             lives--;
-            document.getElementById("lives").innerHTML = lives--;
+            document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
                 document.getElementById("countdown").innerHTML = "You lose!";
+                window.location.href = "Lose Screen.html";
 
             }
              
  
+        }
+        if(elementsOverlap(cart, block5)){
+            // ow.play();
+            console.log("...");
+            document.getElementById("cart").style.left = "620px";
+            document.getElementById("cart").style.top = "450px";
+            lives--;
+            document.getElementById("lives").innerHTML = lives;
+            if(lives <= 0){
+                document.getElementById("countdown").innerHTML = "You lose!";
+                window.location.href = "Lose Screen.html";
+
+            }
+             
+ 
+        }
+
+        if(elementsOverlap(cart, orange1)){
+            console.log("retrieved");
+            orange1.style.display = "none";
+            items++;
+        }
+        if(elementsOverlap(cart, orange2)){
+            console.log("retrieved");
+            orange2.style.display = "none";
+            items++;
+        }
+        if(elementsOverlap(cart, orange3)){
+            console.log("retrieved");
+            orange3.style.display = "none";
+            items++;
+        }
+        if(elementsOverlap(cart, orange4)){
+            console.log("retrieved");
+            orange4.style.display = "none";
+            items++;
+        }
+        if(items == 4){
+            finish.style.display = "block";
+        }
+        if(elementsOverlap(cart, finish) && items == 4){
+            window.location.href = "Store 3.html";
         }
         // if(parseInt(target.style.left) >= 1000){
         //     window.location.href = "../cutscene2/cutscene2.html";
@@ -249,7 +384,7 @@ function move(e){
     }
     if(e.keyCode == 40 || e.keyCode == 83){
         let cart = document.getElementById("cart");
-        let go = parseInt(cart.style.left) + 20;
+        let go = parseInt(cart.style.top) + 20;
         cart.style.top = go;
         console.log("...");
         if(elementsOverlap(cart, block1)){
@@ -257,9 +392,10 @@ function move(e){
             console.log("...");
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";lives--;
-            document.getElementById("lives").innerHTML = lives--;
+            document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
                 document.getElementById("countdown").innerHTML = "You lose!";
+                window.location.href = "Lose Screen.html";
 
             }
              
@@ -271,9 +407,10 @@ function move(e){
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
             lives--;
-            document.getElementById("lives").innerHTML = lives--;
+            document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
                 document.getElementById("countdown").innerHTML = "You lose!";
+                window.location.href = "Lose Screen.html";
 
             }
              
@@ -285,9 +422,10 @@ function move(e){
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
             lives--;
-            document.getElementById("lives").innerHTML = lives--;
+            document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
                 document.getElementById("countdown").innerHTML = "You lose!";
+                window.location.href = "Lose Screen.html";
 
             }
              
@@ -299,13 +437,56 @@ function move(e){
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
             lives--;
-            document.getElementById("lives").innerHTML = lives--;
+            document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
                 document.getElementById("countdown").innerHTML = "You lose!";
+                window.location.href = "Lose Screen.html";
 
             }
              
  
+        }
+        if(elementsOverlap(cart, block5)){
+            // ow.play();
+            console.log("...");
+            document.getElementById("cart").style.left = "620px";
+            document.getElementById("cart").style.top = "450px";
+            lives--;
+            document.getElementById("lives").innerHTML = lives;
+            if(lives <= 0){
+                document.getElementById("countdown").innerHTML = "You lose!";
+                window.location.href = "Lose Screen.html";
+
+            }
+             
+ 
+        }
+
+        if(elementsOverlap(cart, orange1)){
+            console.log("retrieved");
+            orange1.style.display = "none";
+            items++;
+        }
+        if(elementsOverlap(cart, orange2)){
+            console.log("retrieved");
+            orange2.style.display = "none";
+            items++;
+        }
+        if(elementsOverlap(cart, orange3)){
+            console.log("retrieved");
+            orange3.style.display = "none";
+            items++;
+        }
+        if(elementsOverlap(cart, orange4)){
+            console.log("retrieved");
+            orange4.style.display = "none";
+            items++;
+        }
+        if(items == 4){
+            finish.style.display = "block";
+        }
+        if(elementsOverlap(cart, finish) && items == 4){
+            window.location.href = "Store 3.html";
         }
         // if(parseInt(cart.style.left) >= 1000){
         //     window.location.href = "../cutscene2/cutscene2.html";

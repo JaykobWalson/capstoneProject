@@ -5,13 +5,50 @@ p1{
     color: red;
     left: 70px;
 }
-
 p2{
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    color: red;
+    left: 250px; 
+}
+
+p3{
     position: absolute;
     font-size: 14px;
     text-align: center;
     color: red;
     left: 740px;
+}
+p4{
+    position: absolute;
+    font-size: 14px;
+    text-align: center;
+    color: red;
+    left: 900px;
+}
+p5{
+    position: absolute;
+    font-size: 14px;
+    text-align: center;
+    color: red;
+    left: 900px;
+}
+#lives{
+    position: absolute;
+    font-size: 14px;
+    text-align: center;
+    color: red;
+    left: 940px;
+}
+#finish{
+    position:absolute;
+    width: 100px;
+    height: 40px;
+    background-color: teal;
+    top: 0px;
+    left: 700px;
+    display:none;
 }
 
 
@@ -35,7 +72,7 @@ p2{
     position: absolute;
     width: 400px;
     height: 100px;
-    top: 250px;
+    top: 300px;
     left: 500px;
     background-color: grey;
 
@@ -63,16 +100,39 @@ p2{
     position: absolute;
     width: 500px;
     height: 70px;
-    top: 200px;
+    top: 250px;
     left: 200px;
     background-color: grey;
 
 }
 
+#orange1{
+    position:absolute;
+    top: 320px;
+    left: 390px;
+    display:block;
+}
+#orange2{
+    position:absolute;
+    top: 170px;
+    left: 110px;
+    display:block;
+}
+#orange3{
+    position:absolute;
+    top: 140px;
+    left: 450px;
+    display:block;
+}
+#orange4{
+    position:absolute;
+    top: 300px;
+    left: 690px;
+    display:block;
+}
+
 #cart{
     position: absolute;
-    top: 450px;
     rotate:90deg;
-    left: 620px;
 }
 
