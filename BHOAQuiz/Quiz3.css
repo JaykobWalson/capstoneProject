@@ -1,0 +1,68 @@
+body{
+    background-color: bisque;
+}
+
+p1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:purple;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    left: 150px;
+}
+p2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:purple;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 40px;
+    left: 150px;
+}
+
+#goat{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:purple;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 180px;
+    left: 300px;
+}
+#cow{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:purple;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+#cat{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:purple;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 220px;
+    left: 300px;
+}
+#horse{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:purple;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 240px;
+    left: 300px;
+}
+
+#answer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:purple;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    top: 450px;
+    left: 300px;
+}

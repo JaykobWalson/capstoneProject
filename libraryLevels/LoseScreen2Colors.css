@@ -1,0 +1,19 @@
+p1{
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue;
+    left: 350px;
+    font-size: 40;
+}
+
+p2{
+    position: relative;
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 250px;
+    left: 200px;
+    font-size: 20;
+}
+body{
+    background-color: bisque;
+}

@@ -1,0 +1,68 @@
+body{
+    background-color: bisque;
+}
+
+p1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:green;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    left: 150px;
+}
+p2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:green;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 40px;
+    left: 150px;
+}
+
+#slate{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:green;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 180px;
+    left: 300px;
+}
+#coal{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:green;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+#salt{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:green;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 220px;
+    left: 300px;
+}
+#chalk{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:green;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 240px;
+    left: 300px;
+}
+
+#answer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:green;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    top: 450px;
+    left: 300px;
+}

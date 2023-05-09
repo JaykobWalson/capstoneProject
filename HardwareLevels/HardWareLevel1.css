@@ -1,0 +1,123 @@
+body{
+    background-color: grey;
+}
+
+p1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:orange;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    left: 150px;
+}
+p2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:orange;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+
+#countdown{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:orange;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top: 40px;
+    left: 270px;
+}
+p4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:orange;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top: 40px;
+    left: 350px;
+}
+#lives{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:orange;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top: 40px;
+    left: 400px;
+}
+p6{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:orange;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top: 40px;
+    left: 550px;
+}
+
+#cart{
+    position: absolute;
+    display: block;
+    rotate:90deg;
+}
+#shelf1{
+    position: absolute;
+    display: block;
+    rotate:90deg;
+    left: 700px;
+    top: -120px;
+    transform: scale(0.6);
+    
+}
+#shelf2{
+    position: absolute;
+    display: block;
+    left: 200px;
+    top: -40px;
+    transform: scale(0.6);
+
+}
+#shelf2{
+    position: absolute;
+    display: block;
+    left: 200px;
+    top: -40px;
+    transform: scale(0.6);
+
+}
+#wrench1{
+    position: absolute;
+    display: block;
+    left: 50px;
+    top: 100px;
+    transform: scale(0.1);
+
+}
+#wrench2{
+    position: absolute;
+    display: block;
+    left: 50px;
+    top: 400px;
+    transform: scale(0.1);
+
+}
+#wrench3{
+    position: absolute;
+    display: block;
+    left: 600px;
+    top: 150px;
+    transform: scale(0.1);
+
+}
+#finish{
+    width: 60px;
+    height: 80px;
+    color: teal;
+    background-color: yellow;
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 630px;
+}

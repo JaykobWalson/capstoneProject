@@ -1,0 +1,25 @@
+#adam{
+    position: absolute;
+    display: none;
+    top: -20px;
+    left: 600px;
+}
+
+#outroLines{
+    text-align: center;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 20px;
+    left: 400px;
+    size: 20;
+}
+@keyframes descend{
+    0%{
+        top: -20px;
+        left: 300px;
+    }
+    100%{
+        top: 260px;
+        left: 300px;
+    }
+}

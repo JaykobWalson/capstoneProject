@@ -1,0 +1,43 @@
+#directions{
+    color: orangered;
+    font-size: 18px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#arm{
+    transform: scale(0.6);
+    top: -40px;
+    left: 500px;
+    position:absolute;
+}
+#circle1 {
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    top: 200px;
+    left: 650px;
+    position: absolute;
+    display:block;
+}
+#circle2 {
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    top: 300px;
+    left: 640px;
+    position: absolute;
+    display:block;
+}
+
+#circle3 {
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    top: 400px;
+    left: 630px;
+    position: absolute;
+    display:block;
+}

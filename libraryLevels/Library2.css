@@ -1,0 +1,154 @@
+body{
+    background-color: gold;
+}
+
+p1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:blue;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    left: 150px;
+}
+p2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:blue;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+
+#countdown{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:blue;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top: 40px;
+    left: 270px;
+}
+p4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:blue;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top: 40px;
+    left: 350px;
+}
+#lives{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:blue;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top: 40px;
+    left: 400px;
+}
+p6{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:blue;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top: 40px;
+    left: 550px;
+}
+#block1{
+    position: absolute;
+    width: 150px;
+    height: 90px;
+    top: 200px;
+    left: 150px;
+    background-color: brown;
+
+}
+#block2{
+    position: absolute;
+    width: 60px;
+    height: 400px;
+    top: 140px;
+    left: 920px;
+    background-color: brown;
+
+}
+#block3{
+    position: absolute;
+    width: 150px;
+    height: 300px;
+    top: 720px;
+    left: 300px;
+    background-color: brown;
+
+}
+#block4{
+    position: absolute;
+    width: 450px;
+    height: 70px;
+    top: 70px;
+    left: 200px;
+    background-color: brown;
+
+}
+
+#block5{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    top: 250px;
+    left: 500px;
+    background-color: brown;
+
+}
+
+#block6{
+    position: absolute;
+    width: 30px;
+    height: 300px;
+    top: 200px;
+    left: 750px;
+    background-color: brown;
+
+}
+
+#vcr1{
+    position:absolute;
+    top: 320px;
+    left: 490px;
+    display:block;
+}
+#vcr2{
+    position:absolute;
+    top: 210px;
+    left: 130px;
+    display:block;
+}
+#vcr3{
+    position:absolute;
+    top: 140px;
+    left: 450px;
+    display:block;
+}
+#vcr4{
+    position:absolute;
+    top: 250px;
+    left: 690px;
+    display:block;
+}
+#cart{
+    position: absolute;
+    rotate:90deg;
+}
+
+#finish{
+    width: 60px;
+    height: 80px;
+    color: green;
+    background-color: beige;
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 630px;
+}

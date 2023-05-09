@@ -1,0 +1,37 @@
+
+#endmessage{
+    text-align: center;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 20px;
+    left: 400px;
+    size: 20;
+    position: absolute;
+}
+#playagain{
+    text-align: center;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 100px;
+    left: 400px;
+    size: 14;
+    position: absolute;
+}
+#yes{
+    text-align: center;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 300px;
+    left: 40px;
+    size: 14;
+    position: absolute;
+}
+#no{
+    text-align: center;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 300px;
+    left: 760px;
+    size: 14;
+    position: absolute;
+}

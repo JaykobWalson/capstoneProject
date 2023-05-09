@@ -1,0 +1,12 @@
+#adam{
+    width: 200px;
+    height: 200px;
+    display: none;
+    top: 300px;
+    left: 300px;
+    position: absolute;
+}
+#dialogue{
+    color: blue;
+    font-family: fantasy;
+}

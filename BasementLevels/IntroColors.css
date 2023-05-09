@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+#text{
+    font-family: fantasy;
+    color:red;
+    text-align: center;
+    font-size: 20px;
+    top: 200px;
+    left: 500px;
+    position:absolute;
+}

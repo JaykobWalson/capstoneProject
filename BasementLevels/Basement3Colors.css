@@ -1,0 +1,155 @@
+body{
+    background-color: black;
+}
+#block1{
+    background-color: grey;
+    width: 200px;
+    height: 80px;
+    top: 50px;
+    left: 300px;
+    position:absolute;   
+    display:block;
+
+}
+#block2{
+    background-color: grey;
+    width: 100px;
+    height: 500px;
+    top: 70px;
+    left: 30px;
+    position:absolute;
+    display:block;
+
+}
+#block3{
+    background-color: grey;
+    width: 600px;
+    height: 100px;
+    top: 50px;
+    left: 800px;
+    position:absolute;
+    display:block;
+}
+#block4{
+    background-color: grey;
+    width: 150px;
+    height: 100px;
+    top: 200px;
+    left: 450px;
+    position:absolute;
+    display:block;
+}
+#block5{
+    background-color: grey;
+    width: 90px;
+    height: 20px;
+    top: 200px;
+    left: 50px;
+    position:absolute;
+    display:block;
+}
+#block6{
+    background-color: grey;
+    width: 100px;
+    height: 300px;
+    top: 200px;
+    left: 20px;
+    position:absolute;
+    display:block;
+}
+#block7{
+    background-color: grey;
+    width: 100px;
+    height: 300px;
+    top: 200px;
+    left: 900px;
+    position:absolute;
+    display:block;
+}
+#objective{
+    font-size: 16px;
+    position: absolute;
+    text-align: center;
+    left: 150px;
+    color: white;
+    border-radius: 50%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#falsealarm{
+    font-size: 9px;
+    position: absolute;
+    text-align: center;
+    left: 800px;
+    color: white;
+    border-radius: 50%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+p2{
+    font-size: 16px;
+    position: absolute;
+    text-align: center;
+    left: 750px;
+    top: 22px;
+    color: white;
+    border-radius: 50%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#lives{
+    font-size: 16px;
+    position: absolute;
+    text-align: center;
+    left: 800px;
+    color: white;
+    border-radius: 50%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#cart{
+    position: absolute;
+    rotate:90deg;
+    display:block;
+
+}
+#chest{
+    position: absolute;
+    display:block;
+}
+#gate1{
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    top: 500px;
+    left: 150px;
+    position:absolute;
+    display: block;
+    font-size: 16px;
+    position: absolute;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#gate2{
+    background-color: white;
+    width: 20px;
+    height: 100px;
+    top: 460px;
+    left: 800px;
+    position:absolute;
+    display: block;
+    font-size: 16px;
+    position: absolute;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#gate3{
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    top: 20px;
+    left: 600px;
+    position:absolute;
+    display: block;
+    font-size: 16px;
+    position: absolute;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

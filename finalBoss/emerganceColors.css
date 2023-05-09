@@ -1,0 +1,18 @@
+#being{
+    width: 200px;
+    height: 200px;
+    display: none;
+    top: 250px;
+    left: 300px;
+    position: absolute;
+}
+#dialogue{
+    color: black;
+    font-family: fantasy;
+}
+#arm{
+    display: block;
+    top: 0px;
+    left: 200px;
+    
+}

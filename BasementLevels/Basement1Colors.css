@@ -1,0 +1,124 @@
+body{
+    background-color: black;
+}
+#block1{
+    background-color: black;
+    width: 150px;
+    height: 40px;
+    top: 500px;
+    left: 300px;
+    position:absolute;   
+    display:block;
+
+}
+#block2{
+    background-color: black;
+    width: 30px;
+    height: 200px;
+    top: 70px;
+    left: 50px;
+    position:absolute;
+    display:block;
+
+}
+#block3{
+    background-color: black;
+    width: 90px;
+    height: 250px;
+    top: 100px;
+    left: 800px;
+    position:absolute;
+    display:block;
+}
+#gate1{
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    top: 10px;
+    left: 600px;
+    position:absolute;
+    display:none;
+    font-size: 16px;
+    position: absolute;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#gate2{
+    background-color: white;
+    width: 20px;
+    height: 100px;
+    top: 460px;
+    left: 800px;
+    position:absolute;
+    display:none;
+    font-size: 16px;
+    position: absolute;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#gate3{
+    background-color: white;
+    width: 20px;
+    height: 100px;
+    top: 300px;
+    left: 40px;
+    position:absolute;
+    display:none;
+    font-size: 16px;
+    position: absolute;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#button{
+    height: 25px;
+    width: 25px;
+    background-color: grey;
+    border-radius: 50%;
+
+    
+
+}
+#objective{
+    font-size: 16px;
+    position: absolute;
+    text-align: center;
+    left: 150px;
+    color: white;
+    border-radius: 50%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#falsealarm{
+    font-size: 9px;
+    position: absolute;
+    text-align: center;
+    left: 900px;
+    color: white;
+    border-radius: 50%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+p2{
+    font-size: 16px;
+    position: absolute;
+    text-align: center;
+    left: 750px;
+    top: 22px;
+    color: white;
+    border-radius: 50%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#lives{
+    font-size: 16px;
+    position: absolute;
+    text-align: center;
+    left: 800px;
+    color: white;
+    border-radius: 50%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#cart{
+    position: absolute;
+    rotate:90deg;
+    display:block;
+
+}

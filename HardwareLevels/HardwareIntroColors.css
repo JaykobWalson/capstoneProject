@@ -1,0 +1,28 @@
+#adam{
+    position: absolute;
+    display:none;
+
+}
+
+body{
+    background-color: grey;
+}
+
+#dialogue{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:orange;
+    top: 20px;
+    left: 300px;
+    position: absolute;
+}
+
+@keyframes descend{
+    0%{
+        top: 0px;
+        left: 100px;
+    }
+    100%{
+        top: 260px;
+        left: 350px;
+    }
+}

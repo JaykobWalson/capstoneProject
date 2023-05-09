@@ -6,6 +6,7 @@ var block3 = document.getElementById("block3");
 var block4 = document.getElementById("block4");
 var coke = document.getElementById("coca-cola");
 var finish = document.getElementById("finish");
+var hit = new Audio("../ow.mp3");
 var lives = 3;
 var loaded = false;
 
@@ -25,7 +26,7 @@ console.log("...");
 
 timer();
 function timer(){
-    var time = 60;
+    var time = 30;
     interval = setInterval(()=>{
         time--;
         document.getElementById("countdown").innerHTML = time;
@@ -51,11 +52,19 @@ function move(e){
             console.log("...");
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
+            hit.play();
             lives--;
             document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
-                document.getElementById("countdown").innerHTML = "You lose!";
-                window.location.href = "Lose Screen.html";
+                setTimeout(() => {  
+                    hit.play();
+                    }, 100);
+                setTimeout(() => {  
+                    document.getElementById("You lose!"); 
+                    }, 200);
+                setTimeout(() => {  
+                        window.location.href = "Lose Screen.html";
+                    }, 300);
 
             }
  
@@ -65,11 +74,19 @@ function move(e){
             console.log("...");
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
+            hit.play();
             lives--;
             document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
-                document.getElementById("countdown").innerHTML = "You lose!";
-                window.location.href = "Lose Screen.html";
+                setTimeout(() => {  
+                    hit.play();
+                    }, 100);
+                setTimeout(() => {  
+                    document.getElementById("You lose!"); 
+                    }, 200);
+                setTimeout(() => {  
+                        window.location.href = "Lose Screen.html";
+                    }, 300);
 
             }
              
@@ -80,11 +97,19 @@ function move(e){
             console.log("...");
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
+            hit.play();
             lives--;
             document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
-                document.getElementById("countdown").innerHTML = "You lose!";
-                window.location.href = "Lose Screen.html";
+                setTimeout(() => {  
+                    hit.play();
+                    }, 100);
+                setTimeout(() => {  
+                    document.getElementById("You lose!"); 
+                    }, 200);
+                setTimeout(() => {  
+                        window.location.href = "Lose Screen.html";
+                    }, 300);
 
             }
              
@@ -95,11 +120,19 @@ function move(e){
             console.log("...");
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
+            hit.play();
             lives--;
             document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
-                document.getElementById("countdown").innerHTML = "You lose!";
-                window.location.href = "Lose Screen.html";
+                setTimeout(() => {  
+                    hit.play();
+                    }, 100);
+                setTimeout(() => {  
+                    document.getElementById("You lose!"); 
+                    }, 200);
+                setTimeout(() => {  
+                        window.location.href = "Lose Screen.html";
+                    }, 300);
 
             }
              
@@ -131,11 +164,19 @@ function move(e){
             console.log("...");
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
+            hit.play();
             lives--;
             document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
-                document.getElementById("countdown").innerHTML = "You lose!";
-                window.location.href = "Lose Screen.html";
+                setTimeout(() => {  
+                    hit.play();
+                    }, 100);
+                setTimeout(() => {  
+                    document.getElementById("You lose!"); 
+                    }, 200);
+                setTimeout(() => {  
+                        window.location.href = "Lose Screen.html";
+                    }, 300);
 
             }
              
@@ -146,11 +187,19 @@ function move(e){
             console.log("...");
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
+            hit.play();
             lives--;
             document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
-                document.getElementById("countdown").innerHTML = "You lose!";
-                window.location.href = "Lose Screen.html";
+                setTimeout(() => {  
+                    hit.play();
+                    }, 100);
+                setTimeout(() => {  
+                    document.getElementById("You lose!"); 
+                    }, 200);
+                setTimeout(() => {  
+                        window.location.href = "Lose Screen.html";
+                    }, 300);
 
             }
              
@@ -161,11 +210,19 @@ function move(e){
             console.log("...");
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
+            hit.play();
             lives--;
             document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
-                document.getElementById("countdown").innerHTML = "You lose!";
-                window.location.href = "Lose Screen.html";
+                setTimeout(() => {  
+                    hit.play();
+                    }, 100);
+                setTimeout(() => {  
+                    document.getElementById("You lose!"); 
+                    }, 200);
+                setTimeout(() => {  
+                        window.location.href = "Lose Screen.html";
+                    }, 300);
 
             }
              
@@ -176,11 +233,19 @@ function move(e){
             console.log("...");
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
+            hit.play();
             lives--;
             document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
-                document.getElementById("countdown").innerHTML = "You lose!";
-                window.location.href = "Lose Screen.html";
+                setTimeout(() => {  
+                    hit.play();
+                    }, 100);
+                setTimeout(() => {  
+                    document.getElementById("You lose!"); 
+                    }, 200);
+                setTimeout(() => {  
+                        window.location.href = "Lose Screen.html";
+                    }, 300);
 
             }
              
@@ -210,11 +275,19 @@ function move(e){
             console.log("...");
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
+            hit.play();
             lives--;
             document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
-                document.getElementById("countdown").innerHTML = "You lose!";
-                window.location.href = "Lose Screen.html";
+                setTimeout(() => {  
+                    hit.play();
+                    }, 100);
+                setTimeout(() => {  
+                    document.getElementById("You lose!"); 
+                    }, 200);
+                setTimeout(() => {  
+                        window.location.href = "Lose Screen.html";
+                    }, 300);
 
             }
              
@@ -225,11 +298,19 @@ function move(e){
             console.log("...");
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
+            hit.play();
             lives--;
             document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
-                document.getElementById("countdown").innerHTML = "You lose!";
-                window.location.href = "Lose Screen.html";
+                setTimeout(() => {  
+                    hit.play();
+                    }, 100);
+                setTimeout(() => {  
+                    document.getElementById("You lose!"); 
+                    }, 200);
+                setTimeout(() => {  
+                        window.location.href = "Lose Screen.html";
+                    }, 300);
 
             }
              
@@ -240,11 +321,19 @@ function move(e){
             console.log("...");
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
+            hit.play();
             lives--;
             document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
-                document.getElementById("countdown").innerHTML = "You lose!";
-                window.location.href = "Lose Screen.html";
+                setTimeout(() => {  
+                    hit.play();
+                    }, 100);
+                setTimeout(() => {  
+                    document.getElementById("You lose!"); 
+                    }, 200);
+                setTimeout(() => {  
+                        window.location.href = "Lose Screen.html";
+                    }, 300);
 
             }
              
@@ -255,11 +344,19 @@ function move(e){
             console.log("...");
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
+            hit.play();
             lives--;
             document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
-                document.getElementById("countdown").innerHTML = "You lose!";
-                window.location.href = "Lose Screen.html";
+                setTimeout(() => {  
+                    hit.play();
+                    }, 100);
+                setTimeout(() => {  
+                    document.getElementById("You lose!"); 
+                    }, 200);
+                setTimeout(() => {  
+                        window.location.href = "Lose Screen.html";
+                    }, 300);
 
             }
              
@@ -290,11 +387,19 @@ function move(e){
             console.log("...");
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
+            hit.play();
             lives--;
             document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
-                document.getElementById("countdown").innerHTML = "You lose!";
-                window.location.href = "Lose Screen.html";
+                setTimeout(() => {  
+                    hit.play();
+                    }, 100);
+                setTimeout(() => {  
+                    document.getElementById("You lose!"); 
+                    }, 200);
+                setTimeout(() => {  
+                        window.location.href = "Lose Screen.html";
+                    }, 300);
 
             }
              
@@ -305,11 +410,19 @@ function move(e){
             console.log("...");
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
+            hit.play();
             lives--;
             document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
-                document.getElementById("countdown").innerHTML = "You lose!";
-                window.location.href = "Lose Screen.html";
+                setTimeout(() => {  
+                    hit.play();
+                    }, 100);
+                setTimeout(() => {  
+                    document.getElementById("You lose!"); 
+                    }, 200);
+                setTimeout(() => {  
+                        window.location.href = "Lose Screen.html";
+                    }, 300);
 
             }
              
@@ -320,11 +433,19 @@ function move(e){
             console.log("...");
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
+            hit.play();
             lives--;
             document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
-                document.getElementById("countdown").innerHTML = "You lose!";
-                window.location.href = "Lose Screen.html";
+                setTimeout(() => {  
+                    hit.play();
+                    }, 100);
+                setTimeout(() => {  
+                    document.getElementById("You lose!"); 
+                    }, 200);
+                setTimeout(() => {  
+                        window.location.href = "Lose Screen.html";
+                    }, 300);
 
             }
              
@@ -335,11 +456,19 @@ function move(e){
             console.log("...");
             document.getElementById("cart").style.left = "620px";
             document.getElementById("cart").style.top = "450px";
+            hit.play();
             lives--;
             document.getElementById("lives").innerHTML = lives;
             if(lives <= 0){
-                document.getElementById("countdown").innerHTML = "You lose!";
-                window.location.href = "Lose Screen.html";
+                setTimeout(() => {  
+                    hit.play();
+                    }, 100);
+                setTimeout(() => {  
+                    document.getElementById("You lose!"); 
+                    }, 200);
+                setTimeout(() => {  
+                        window.location.href = "Lose Screen.html";
+                    }, 300);
 
             }
              

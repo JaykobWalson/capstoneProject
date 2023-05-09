@@ -16,5 +16,7 @@ adam.addEventListener("animationend", function(){
     }, 4000);
     setTimeout(()=>{ p.innerHTML = "You'll have to answer some questions if you want to continue.";
     }, 7000);
+    setTimeout(()=>{ window.location.href = "Quiz 1.html";
+    }, 10000);
 });
 
